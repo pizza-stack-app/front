@@ -8,14 +8,14 @@ interface MenuItemProps {
   price: number;
 }
 
-const values: MenuItemProps = {
-  imagePath: '/assets/pizza/manhattan.jpeg',
-  weight: 555,
-  title: 'Піца Мангеттен',
-  ingredients:
-    '(подвійна порція грибів), Гриби, Моцарела, Пепероні, Соус Альфредо',
-  price: 215,
-};
+// const values: MenuItemProps = {
+//   imagePath: '/assets/pizza/manhattan.jpeg',
+//   weight: 555,
+//   title: 'Піца Мангеттен',
+//   ingredients:
+//     '(подвійна порція грибів), Гриби, Моцарела, Пепероні, Соус Альфредо',
+//   price: 215,
+// };
 
 export const MenuItem: FC<MenuItemProps> = ({
   imagePath,
